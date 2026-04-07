@@ -71,5 +71,11 @@ if (impulsoInvalidos.includes(impulso.toLowerCase())){
 }
 
 
+document.getElementById("resultado").innerHTML =
+"Cadastro realizado com sucesso!<br> " +
+"Nome: " + nome + "<br>" +
+"Email: " + email + "<br>" +
+"Telefone: " + telefone + "<br>" +
+"Cidade: " + cidade;
 
 });
