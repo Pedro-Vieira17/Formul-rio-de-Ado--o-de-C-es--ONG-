@@ -114,3 +114,20 @@ button[type="submit"] {
 
 }
 
+.final{
+    background-color: rgb(0, 58, 124);
+    padding: 20px;
+    color: white;
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 10px 0;
+    margin-top: 0px;
+}
