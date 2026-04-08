@@ -6,10 +6,12 @@
 }
 
 #FormularioAdocao {
-    background-color: rgb(245, 245, 245);
-    padding: 20px;
-    border-radius: 10px;
-
+    background-color: #ffffff;
+    padding: 40px;
+    border-radius: 15px;
+    box-shadow: 0 10px 25px rgba(0, 0, 0, 0.05);
+    max-width: 600px;
+    width: 100%;
 }
 
 textarea,
@@ -22,35 +24,93 @@ select {
 
 }
 
-input[type="text"],
-input[type="email"],
-input[type="number"] {
-    width: 100%;
-    border: 1px solid #000000;
+label {
+    display: block;
+    margin-bottom: 8px;
+    font-weight: 600;
+    font-size: 0.9rem;
+    color: #444;
 }
 
-h2, h3{
+input[type="text"],
+input[type="email"],
+input[type="number"],
+select,
+textarea {
+    width: 100%;
+    padding: 13px;
+    margin-bottom: 10px;
+    border: 2px solid #c2c2c2;
+    border-radius: 8px;
+    font-family: 'Montserrat', sans-serif;
+    box-sizing: border-box;
+    
+}
+
+
+
+h2,
+h3 {
     text-align: center;
     font-weight: 600;
 }
 
-body{
-    font-family: 'roboto', sans-serif;
+body {
+    font-family: 'Montserrat', sans-serif;
     background-color: rgb(224, 222, 222);
     margin: 0;
 }
 
-.titulo{
-background-color: rgb(0, 90, 194);
-padding: 20px;
-color: white;
-
+.titulo {
+    background-color: #005ac2;
+    padding: 10px;
+    color: white;
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+    align-items: center;
 }
 
-.subtitulo{
+
+
+.subtitulo {
     background-color: rgb(0, 58, 124);
     padding: 20px;
     color: white;
     margin-bottom: 20px;
-  
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: x-large;
 }
+
+.subtitulo h3 {
+    font-size: medium;
+    margin: 1px;
+}
+
+.mel {
+    width: 60px;
+}
+
+.img_subtitulo {
+    width: 120px;
+}
+
+.text_subtitulo {
+    display: flex;
+    flex-direction: column;
+}
+
+button[type="submit"] {
+    width: 100%;
+    background-color: #28a745; 
+    color: white;
+    padding: 15px;
+    border-radius: 8px;
+    font-weight: 600;
+    cursor: pointer;
+
+}
+
